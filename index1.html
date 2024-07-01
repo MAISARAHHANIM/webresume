@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="resumecss.css">
+</head>
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+
+
+</style>
+</head>
+<body>
+
+    <div align="center">
+        <img src="maisarah logo 1.PNG" style="width:10%">
+    </div>
+    
+    <h2 align="center">My E-Resume</h2>
+
+<div class="scrollmenu">
+  <a href="D:\Microsoft VS Code\My Coding\index1.html">Home</a>
+  <a href="D:\Microsoft VS Code\My Coding\personal.html">Personal</a>
+  <a href="D:\Microsoft VS Code\My Coding\skill.html">Skill</a>
+  <a href="D:\Microsoft VS Code\My Coding\experience.html">Experience</a>
+  <a href="D:\Microsoft VS Code\My Coding\education.html">Educational</a>
+  <a href="D:\Microsoft VS Code\My Coding\contact.html">Contact</a>
+
+</div>
+
+<h2>HOME</h2>
+
+<div align="center">
+  <h1>WELCOME TO MY WEBPAGE</h1>
+  <img src="gambarSarah.jpg" style="width:25%">
+  <h2>Maisarah Hanim Binti Mansor</h2>
+  <h2>Sarjana Muda Pentadbiran Perniagaan (Kepujian) Pemasaran</h2>
+  <h2>Fakulti Pengurusan dan Perniagaan</h2>
+  </div>
+
+<!-- Slideshow container -->
+<div class="slideshow-container">
+
+    <!-- Full-width images with number and caption text -->
+    <div class="mySlides fade">
+      <div class="numbertext">1 / 3</div>
+      <img src="D:\Microsoft VS Code\My Coding\Banner A.png" style="width:100%">
+      
+    </div>
+  
+    <div class="mySlides fade">
+      <div class="numbertext">2 / 3</div>
+      <img src="D:\Microsoft VS Code\My Coding\Banner B.png" style="width:100%">
+      
+    </div>
+  
+    <div class="mySlides fade">
+      <div class="numbertext">3 / 3</div>
+      <img src="D:\Microsoft VS Code\My Coding\Banner C.png" style="width:100%">
+      
+    </div>
+  
+    <!-- Next and previous buttons -->
+    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+  </div>
+
+
+
+<!-- The dots/circles -->
+<div style="text-align:center">
+    <span class="dot" onclick="currentSlide(1)"></span>
+    <span class="dot" onclick="currentSlide(2)"></span>
+    <span class="dot" onclick="currentSlide(3)"></span>
+  </div>
+<br>
+  
+
+
+<script>
+let slideIndex = 0;
+showSlides();
+
+function showSlides() {
+  let i;
+  let slides = document.getElementsByClassName("mySlides");
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";
+  }
+  slideIndex++;
+  if (slideIndex > slides.length) {slideIndex = 1}
+  slides[slideIndex-1].style.display = "block";
+  setTimeout(showSlides, 3000); // Change image every 2 seconds
+}
+
+
+</script>
+
+
+
+</body>
+</html>

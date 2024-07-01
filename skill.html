@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="resumecss.css">
+  </head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+
+
+
+</style>
+</head>
+<body>
+
+    <h2 align="center">My E-Resume</h2>
+
+<div class="scrollmenu">
+  <a href="D:\Microsoft VS Code\My Coding\index1.html">Home</a>
+  <a href="D:\Microsoft VS Code\My Coding\personal.html">Personal</a>
+  <a href="D:\Microsoft VS Code\My Coding\skill.html">Skill</a>
+  <a href="D:\Microsoft VS Code\My Coding\experience.html">Experience</a>
+  <a href="D:\Microsoft VS Code\My Coding\education.html">Educational</a>
+  <a href="D:\Microsoft VS Code\My Coding\contact.html">Contact</a>
+
+</div>
+
+<h2>Skill</h2>
+
+
+
+<br>
+  <div align="center">
+    
+    
+    
+    
+    </div>
+
+    
+
+    <div class="row1">
+      <div class="column1" style="background-color:#f970d2;">
+        <b>
+          <h2>Spoken Languages:</h2>  
+        <p>Malay: Native</p>
+        <p>English: Fluent</p>
+        <p>Mandarin: Basic</p>
+        <hr>
+        <br>
+        
+        <h2>Interpersonal Skills:</h2>  
+        <p>Communications: Well communication and effective writing skill</p>
+        <p>Team work: Ability to work with team member and achieve same objective</p>
+        <p>Time Management: Always prioritize time in working project</p>
+        <p>Problem solving: Strong critical thinking in solving problem</p>
+        <hr>
+        <br>
+        <h2>Computer Skills</h2>  
+        <p>Excellent in Microsoft Excel</p>
+        <p>Skillful in using web-based designing tools such as Canva</p>
+        <p>Well verse with Visual Studio Code</p>
+        </b>
+      </div>
+      <div class="column" style="background-color:#c822ed;">
+        <h2>My Profile Picture</h2>
+        <img src="gambarSarah.jpg" style="width:25%">
+        
+      </div>
+
+    </div>    
+
+<script>
+let slideIndex = 0;
+showSlides();
+
+function showSlides() {
+  let i;
+  let slides = document.getElementsByClassName("mySlides");
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";
+  }
+  slideIndex++;
+  if (slideIndex > slides.length) {slideIndex = 1}
+  slides[slideIndex-1].style.display = "block";
+  setTimeout(showSlides, 3000); // Change image every 2 seconds
+}
+
+
+</script>
+
+
+
+</body>
+</html>

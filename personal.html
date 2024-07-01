@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="resumecss.css">
+  </head>  
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+
+
+* {box-sizing:border-box}
+
+* {
+  box-sizing: border-box;
+}
+
+
+
+</style>
+</head>
+<body>
+
+    <h2 align="center">My E-Resume</h2>
+
+<div class="scrollmenu">
+  <a href="D:\Microsoft VS Code\My Coding\index1.html">Home</a>
+  <a href="D:\Microsoft VS Code\My Coding\personal.html">Personal</a>
+  <a href="D:\Microsoft VS Code\My Coding\skill.html">Skill</a>
+  <a href="D:\Microsoft VS Code\My Coding\experience.html">Experience</a>
+  <a href="D:\Microsoft VS Code\My Coding\education.html">Educational</a>
+  <a href="D:\Microsoft VS Code\My Coding\contact.html">Contact</a>
+
+</div>
+
+<h2>PERSONAL</h2>
+
+
+
+<br>
+  <div align="center">
+    
+    
+    
+    
+    </div>
+
+    
+
+    <div class="row">
+      <div class="column" style="background-color:#f319b5;">
+        <b>
+          <h2>Personal Details:</h2>  
+        <p>Name: Maisarah Hanim Binti Mansor</p>
+        <p>Bachelor in Marketing</p>
+        <p>Age: 22 years old</p>
+        <p>Gender: Female</p>
+        <p>Religion: Islam</p>
+        <p>Nationality: Malaysia</p>
+        <p>Address: KG WAKAF CHE KAPUR, 20050 KUALA TERENGGANU, TERENGGANU</p>
+        <p></p>
+        </b>
+      </div>
+      <div class="column" style="background-color:#c822ed;">
+        <h2>My Profile Picture</h2>
+        <img src="gambarSarah.jpg" style="width:25%">
+        
+      </div>
+
+    </div>    
+
+<script>
+let slideIndex = 0;
+showSlides();
+
+function showSlides() {
+  let i;
+  let slides = document.getElementsByClassName("mySlides");
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";
+  }
+  slideIndex++;
+  if (slideIndex > slides.length) {slideIndex = 1}
+  slides[slideIndex-1].style.display = "block";
+  setTimeout(showSlides, 3000); // Change image every 2 seconds
+}
+
+
+</script>
+
+
+
+</body>
+</html>
